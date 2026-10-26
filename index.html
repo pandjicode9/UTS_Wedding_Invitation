@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wedding of Zahra & Rizky</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80">
+
+    <!-- COVER / OPENING SECTION -->
+    <section id="cover" class="cover-section d-flex align-items-center justify-content-center text-center">
+        <div class="container cover-content" data-aos="fade-up">
+            <p class="text-uppercase tracking-widest cover-accent-text small mb-2">The Wedding Of</p>
+            <h1 class="couple-names display-3 mb-3">Zahra & Rizky</h1>
+            <p class="mb-4 cover-accent-text">Kepada Yth. Bapak/Ibu/Saudara/i,</p>
+            <div id="guest-box" class="guest-name-card mb-4 py-2 px-4 d-inline-block rounded-pill shadow-sm">
+                <span id="guest-name" class="fw-bold fs-5 text-dark">Tamu Undangan</span>
+            </div>
+            <p class="small cover-accent-text mb-4 px-3">Tanpa mengurangi rasa hormat, kami mengundang Anda untuk hadir di hari bahagia pernikahan kami.</p>
+            <button id="open-invitation" class="btn btn-primary px-5 py-2 rounded-pill shadow-sm">
+                <i class="fa-solid fa-envelope-open-text me-2"></i> Buka Undangan
+            </button>
+        </div>
+    </section>
+
+    <!-- MAIN INVITATION CONTENT (Hidden initially) -->
+    <div id="main-content" class="d-none">
+        
+        <!-- NAVBAR -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white/90 backdrop-blur fixed-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand font-script fs-4 fw-bold text-primary" href="#hero">Z & R</a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#hero">Beranda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#couple">Mempelai</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#event">Acara</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#gallery">Galeri</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#rsvp">RSVP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HERO SECTION -->
+        <header id="hero" class="hero-section d-flex align-items-center text-center text-white">
+            <div class="container py-5">
+                <p class="text-uppercase tracking-widest mb-2">The Wedding Of</p>
+                <h1 class="display-3 font-script mb-3">Zahra & Rizky</h1>
+                <p class="lead mb-4">Minggu, 15 November 2026</p>
+                <!-- Countdown Timer -->
+                <div id="countdown" class="row justify-content-center g-3 text-dark max-w-500 mx-auto">
+                    <div class="col-3"><div class="p-2 bg-white rounded shadow-sm"><span id="days" class="d-block fw-bold fs-4">00</span><small class="text-muted">Hari</small></div></div>
+                    <div class="col-3"><div class="p-2 bg-white rounded shadow-sm"><span id="hours" class="d-block fw-bold fs-4">00</span><small class="text-muted">Jam</small></div></div>
+                    <div class="col-3"><div class="p-2 bg-white rounded shadow-sm"><span id="minutes" class="d-block fw-bold fs-4">00</span><small class="text-muted">Menit</small></div></div>
+                    <div class="col-3"><div class="p-2 bg-white rounded shadow-sm"><span id="seconds" class="d-block fw-bold fs-4">00</span><small class="text-muted">Detik</small></div></div>
+                </div>
+            </div>
+        </header>
+
+        <!-- COUPLE SECTION -->
+        <section id="couple" class="py-5 bg-light">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <h2 class="font-script display-5 text-primary">Assalamu'alaikum Wr. Wb.</h2>
+                    <p class="text-muted">Maha suci Allah SWT yang telah menciptakan makhluk-Nya berpasang-pasangan.</p>
+                </div>
+                <div class="row align-items-center justify-content-center text-center g-4">
+                    <!-- Groom -->
+                    <div class="col-md-5">
+                        <div class="card border-0 shadow-sm p-4 rounded-4">
+                            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=400" class="rounded-circle mx-auto mb-3 object-fit-cover shadow" width="150" height="150" alt="Rizky">
+                            <h3 class="h4 fw-bold mb-1">Rizky Pratama, S.Kom.</h3>
+                            <p class="text-muted small mb-0">Putra dari Bpk. Budi Santoso & Ibu Siti Aminah</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <span class="font-script fs-1 text-primary">&</span>
+                    </div>
+                    <!-- Bride -->
+                    <div class="col-md-5">
+                        <div class="card border-0 shadow-sm p-4 rounded-4">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400" class="rounded-circle mx-auto mb-3 object-fit-cover shadow" width="150" height="150" alt="Zahra">
+                            <h3 class="h4 fw-bold mb-1">Zahra Aulia, S.T.</h3>
+                            <p class="text-muted small mb-0">Putri dari Bpk. Ahmad Hidayat & Ibu Dewi Lestari</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EVENT TIMELINE SECTION -->
+        <section id="event" class="py-5">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <h2 class="font-script display-5 text-primary">Rangkaian Acara</h2>
+                    <p class="text-muted">Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir.</p>
+                </div>
+                
+                <div class="row g-4 justify-content-center mb-5">
+                    <!-- Akad Nikah -->
+                    <div class="col-md-5">
+                        <div class="card border-0 shadow-sm p-4 text-center rounded-4 h-100 border-top border-4 border-primary">
+                            <div class="card-body">
+                                <i class="fa-solid fa-ring fs-1 text-primary mb-3"></i>
+                                <h3 class="h4 fw-bold mb-3">Akad Nikah</h3>
+                                <p class="text-muted mb-2"><i class="fa-regular fa-calendar me-2"></i> Minggu, 15 November 2026</p>
+                                <p class="text-muted mb-3"><i class="fa-regular fa-clock me-2"></i> 08.00 WIB - Selesai</p>
+                                <p class="small text-secondary mb-0">Hotel Majapahit Surabaya, Jl. Tunjungan No. 65, Surabaya</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Resepsi -->
+                    <div class="col-md-5">
+                        <div class="card border-0 shadow-sm p-4 text-center rounded-4 h-100 border-top border-4 border-primary">
+                            <div class="card-body">
+                                <i class="fa-solid fa-champagne-glasses fs-1 text-primary mb-3"></i>
+                                <h3 class="h4 fw-bold mb-3">Resepsi Pernikahan</h3>
+                                <p class="text-muted mb-2"><i class="fa-regular fa-calendar me-2"></i> Minggu, 15 November 2026</p>
+                                <p class="text-muted mb-3"><i class="fa-regular fa-clock me-2"></i> 11.00 WIB - 13.00 WIB</p>
+                                <p class="small text-secondary mb-0">Hotel Majapahit Surabaya, Jl. Tunjungan No. 65, Surabaya</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EMBED GOOGLE MAPS -->
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="card border-0 shadow-sm p-3 rounded-4">
+                            <h4 class="h5 fw-bold text-center my-3 text-primary"><i class="fa-solid fa-map-location-dot me-2"></i>Lokasi Acara</h4>
+                            <!-- Responsive Wrapper untuk iframe Google Maps -->
+                            <div class="map-container rounded-3 overflow-hidden shadow-sm mb-3">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.8301887123453!2d112.73712297400145!3d-7.260158392746575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f9677b35a2c9%3A0x35c42aa40adf3646!2sMajapahit%20Hotel%20Surabaya%20-%20MGallery%20Collection!5e0!3m2!1sid!2sid!4v1793015668629!5m2!1sid!2sid" width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                            </div>
+                            <div class="text-center mb-2">
+                                <a href="https://maps.google.com/?q=Hotel+Majapahit+Surabaya" target="_blank" class="btn btn-outline-primary btn-sm rounded-pill px-4">
+                                    <i class="fa-solid fa-arrow-up-right-from-square me-1"></i> Buka di Google Maps App
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- GALLERY SECTION -->
+        <section id="gallery" class="py-5 bg-light">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <h2 class="font-script display-5 text-primary">Galeri Momen Bahagia</h2>
+                    <p class="text-muted">Potret kebersamaan perjalanan cinta kami.</p>
+                </div>
+                <div class="row g-3 justify-content-center">
+                    <div class="col-md-4 col-12">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=600" class="w-100 rounded-3 shadow-sm gallery-img" alt="Gallery 1">
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=600" class="w-100 rounded-3 shadow-sm gallery-img" alt="Gallery 2">
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&q=80&w=600" class="w-100 rounded-3 shadow-sm gallery-img" alt="Gallery 3">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RSVP & DIGITAL GIFT SECTION -->
+        <section id="rsvp" class="py-5">
+            <div class="container py-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="card border-0 shadow-sm p-4 p-md-5 rounded-4">
+                            <h2 class="font-script display-5 text-primary text-center mb-3">RSVP & Ucapan</h2>
+                            <p class="text-center text-muted mb-4">Silakan konfirmasi kehadiran Anda dan berikan doa restu.</p>
+                            
+                            <!-- RSVP Form -->
+                            <form id="rsvp-form" class="mb-5">
+                                <div class="mb-3">
+                                    <label class="form-label small fw-semibold">Nama</label>
+                                    <input type="text" id="rsvp-name" class="form-control" placeholder="Nama Anda" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label small fw-semibold">Konfirmasi Kehadiran</label>
+                                    <select id="rsvp-status" class="form-select" required>
+                                        <option value="Hadir">Hadir</option>
+                                        <option value="Tidak Hadir">Berhalangan Hadir</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label small fw-semibold">Ucapan & Doa</label>
+                                    <textarea id="rsvp-message" class="form-control" rows="3" placeholder="Tulis ucapan dan doa restu..." required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100 rounded-pill">Kirim Konfirmasi</button>
+                            </form>
+
+                            <!-- Message Feed List -->
+                            <hr class="my-4">
+                            <h4 class="h5 fw-bold mb-3">Daftar Ucapan Tamu</h4>
+                            <div id="message-container" class="message-feed border rounded-3 p-3 bg-light">
+                                <!-- Dynamic comments injected via JavaScript -->
+                                <div class="mb-3 pb-2 border-bottom">
+                                    <strong>Budi Santoso</strong> <span class="badge bg-success small ms-2">Hadir</span>
+                                    <p class="small text-muted mb-0 mt-1">Selamat menempuh hidup baru Zahra & Rizky! Semoga menjadi keluarga sakinah, mawaddah, warahmah.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DIGITAL ENVELOPE / GIFT -->
+        <section class="py-5 bg-light text-center">
+            <div class="container">
+                <h2 class="font-script display-5 text-primary mb-3">Kado Digital</h2>
+                <p class="text-muted mb-4">Doa restu Anda merupakan karunia terindah bagi kami. Namun jika Anda ingin memberikan tanda kasih, dapat melalui:</p>
+                <div class="row justify-content-center">
+                    <div class="col-md-5">
+                        <div class="card border-0 shadow-sm p-4 rounded-4">
+                            <h4 class="h6 fw-bold text-uppercase text-secondary">Bank Central Asia (BCA)</h4>
+                            <p class="fs-5 fw-bold text-dark my-2" id="acc-number">1234567890</p>
+                            <p class="small text-muted mb-3">a.n. Zahra Aulia</p>
+                            <button id="copy-btn" class="btn btn-outline-primary btn-sm rounded-pill px-4">
+                                <i class="fa-regular fa-copy me-1"></i> Salin Nomor Rekening
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="py-4 text-center bg-white border-top">
+            <div class="container">
+                <p class="small text-muted mb-0">© 2026 Zahra & Rizky Wedding. Built with HTML, CSS, Bootstrap, & JS.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- AUDIO BACKSOUND -->
+<audio id="backsound" loop>
+    <source src="MusikWedding.mp3" type="audio/mpeg">
+    Browser Anda tidak mendukung elemen audio.
+</audio>
+
+    <!-- FLOATING MUSIC BUTTON -->
+    <button id="music-toggle" class="btn btn-primary rounded-circle shadow-lg d-none">
+        <i class="fa-solid fa-music"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

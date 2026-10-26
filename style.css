@@ -1,0 +1,158 @@
+/* Google Fonts Customization */
+.font-script {
+    font-family: 'Great Vibes', cursive;
+}
+
+:root {
+    --primary-brown: #5C4033;
+    --accent-gold: #D4AF37;
+    --bg-cream: #FDFBF7;
+    --card-cream: #F4EBE1;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #4a3b32;
+    background-color: var(--bg-cream);
+    overflow-x: hidden;
+}
+
+/* Custom Primary & Accent Colors overriding Bootstrap */
+.text-primary {
+    color: var(--primary-brown) !important;
+}
+
+.bg-primary {
+    background-color: var(--primary-brown) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-brown) !important;
+    border-color: var(--primary-brown) !important;
+}
+
+.btn-primary:hover {
+    background-color: #432e24 !important;
+    border-color: #432e24 !important;
+}
+
+.btn-outline-primary {
+    color: var(--primary-brown) !important;
+    border-color: var(--primary-brown) !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-brown) !important;
+    color: #fff !important;
+}
+
+.border-primary {
+    border-color: var(--accent-gold) !important;
+}
+
+/* Cover Section Styling with Brown/Cream overlay */
+.cover-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(92, 64, 51, 0.75), rgba(44, 30, 23, 0.85)), url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=1920') no-repeat center center/cover;
+    color: #FDFBF7;
+    z-index: 9999;
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+
+/* Penyelarasan Warna Teks Cover */
+.cover-accent-text {
+    color: #F4EBE1 !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+
+.cover-content h1 {
+    font-family: 'Great Vibes', cursive;
+    color: #F4EBE1;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.guest-name-card {
+    background: rgba(244, 235, 225, 0.85);
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--accent-gold);
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 100vh;
+    background: linear-gradient(rgba(92, 64, 51, 0.65), rgba(44, 30, 23, 0.75)), url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=1920') no-repeat center center/cover;
+}
+
+/* Card & Background Adjustments */
+.bg-light {
+    background-color: #F8F4EE !important;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid rgba(212, 175, 55, 0.2) !important;
+}
+
+/* Gallery Images Styling & Uniform Height */
+.gallery-img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-img:hover {
+    transform: scale(1.03);
+}
+
+@media (min-width: 768px) {
+    .gallery-img {
+        height: 280px;
+    }
+}
+
+/* Styling Google Maps Wrapper */
+.map-container {
+    position: relative;
+    width: 100%;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.map-container iframe {
+    vertical-align: middle;
+}
+
+/* Message Feed Scrollable Area */
+.message-feed {
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: #F8F4EE !important;
+}
+
+/* Floating Music Toggle Button */
+#music-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: var(--primary-brown) !important;
+    color: white;
+}
+
+/* Utility Animations */
+.fade-out {
+    transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none;
+}
